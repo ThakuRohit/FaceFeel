@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photo to Emoji</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Photo to Emoji Converter</h1>
+  <video autoplay="true" id="videoElement"></video>
+  <br />
+  <button onclick="captureAndSend()">Capture & Predict</button>
+  <div id="emojiDisplay"></div>
+  <div id="emotionText"></div>
+  <!-- Download link -->
+  <a id="downloadEmoji" download="emoji.png" style="display: none;">⬇️ Download Emoji</a>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
